@@ -1,0 +1,16 @@
+.search{
+    background-color: rgb(224, 224, 215);
+}
+/* Custom styles for centering */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+  
+  /* Add margin to the search input for spacing */
+.search-input {
+    margin-bottom: 15px; /* Adjust the margin based on your needs */
+}
