@@ -9,6 +9,8 @@ import MovieDetail from "./components/MovieDetail";
 import NotFound from "./components/NotFound";
 import { ThemeContext } from "./context/theme";
 import { useContext, useState } from "react";
+import { LanguageContext } from "./context/language";
+
 function App() {
   const [contextTheme, setContextTheme] = useState("light");
   return (
