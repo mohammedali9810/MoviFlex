@@ -80,12 +80,12 @@ export default function Card(props) {
                       (favoriteMovie) => favoriteMovie.id === movie.id
                     ) ? (
                       <Favorite
-                        sx={{ color: yellow[700] }}
+                        sx={{ color: blue[700] }}
                         style={{ cursor: "pointer" }}
                       />
                     ) : (
                       <FavoriteBorder
-                        sx={{ color: yellow[700] }}
+                        sx={{ color: blue[700] }}
                         style={{ cursor: "pointer" }}
                       />
                     )}
