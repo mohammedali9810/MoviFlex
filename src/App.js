@@ -16,7 +16,14 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        
+        <ThemeContext.Provider value={{ contextTheme, setContextTheme }}>
+          <LanguageContext.Provider value={{ contextLang, setContextLang }}>
+
+            <div
+              className="container"
+              // eslint-disable-next-line eqeqeq
+              dir={contextLang == "en" ? "ltr" : "rtl"}
+            >
         <Header />
         <ThemeContext.Provider value={{ contextTheme, setContextTheme }}>
         <Routes>
@@ -28,6 +35,9 @@ function App() {
           <Route path="/404" element={<NotFound />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
+
+          </div>
+          </LanguageContext.Provider>
         </ThemeContext.Provider>
       </BrowserRouter>
     </div>
