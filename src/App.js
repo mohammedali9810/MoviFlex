@@ -19,6 +19,7 @@ function App() {
         <ThemeContext.Provider value={{ contextTheme, setContextTheme }}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/MoviFlex" element={<Home />} />
           <Route path="/movie-detail/:id" element={<MovieDetail />} />
           <Route path="/watchlist" element={<WatchList />} />
           <Route path="/search/:title" element={<Search />} />
