@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/MoviFlex/static/css/main.d1648ddd.css",
-    "main.js": "/MoviFlex/static/js/main.2cbbd64a.js",
+    "main.js": "/MoviFlex/static/js/main.43521271.js",
     "static/media/1.png": "/MoviFlex/static/media/1.dc0d0c8d8b5a1f04d8dd.png",
     "index.html": "/MoviFlex/index.html",
     "main.d1648ddd.css.map": "/MoviFlex/static/css/main.d1648ddd.css.map",
-    "main.2cbbd64a.js.map": "/MoviFlex/static/js/main.2cbbd64a.js.map"
+    "main.43521271.js.map": "/MoviFlex/static/js/main.43521271.js.map"
   },
   "entrypoints": [
     "static/css/main.d1648ddd.css",
-    "static/js/main.2cbbd64a.js"
+    "static/js/main.43521271.js"
   ]
 }
