@@ -7,6 +7,9 @@ import WatchList from "./components/Watchlist";
 import Search from "./components/Search";
 import MovieDetail from "./components/MovieDetail";
 import NotFound from "./components/NotFound";
+import NewUser from "./components/NewUser";
+
+
 import { ThemeContext } from "./context/theme";
 import { useContext, useState } from "react";
 import { LanguageContext } from "./context/language";
