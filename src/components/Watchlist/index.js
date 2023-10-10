@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Rating from "@mui/material/Rating";
 import { Favorite } from "@mui/icons-material";
 import { addRemoveFavorite } from "../../store/slices/favorite";
-import { yellow } from "@mui/material/colors";
+import { blue } from "@mui/material/colors";
 import { useNavigate } from "react-router-dom";
 import image1 from "./1.png";
 export default function WatchList() {
@@ -60,7 +60,7 @@ export default function WatchList() {
                             >
                               <Favorite
                                 fontSize="large"
-                                sx={{ color: yellow[700] }}
+                                sx={{ color: blue[700] }}
                                 style={{ cursor: "pointer" }}
                               />
                             </div>

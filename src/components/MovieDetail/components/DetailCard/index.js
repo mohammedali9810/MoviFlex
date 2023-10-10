@@ -5,7 +5,7 @@ import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addRemoveFavorite } from "../../../../store/slices/favorite";
-import { yellow } from "@mui/material/colors";
+import { blue } from "@mui/material/colors";
 export default function DetailCard() {
   const [movie, setMovie] = useState({});
   const params = useParams();
@@ -60,13 +60,13 @@ export default function DetailCard() {
                 (favoriteMovie) => favoriteMovie.id === movie.id
               ) ? (
                 <Favorite
-                  sx={{ color: yellow[700] }}
+                  sx={{ color: blue[700] }}
                   style={{ cursor: "pointer" }}
                   fontSize="large"
                 />
               ) : (
                 <FavoriteBorder
-                  sx={{ color: yellow[700] }}
+                  sx={{ color: blue[700] }}
                   fontSize="large"
                   style={{ cursor: "pointer" }}
                 />
@@ -83,7 +83,7 @@ export default function DetailCard() {
                   max={10}
                   precision={0.5}
                   readOnly
-                  sx={{ color: yellow[700] }}
+                  sx={{ color: blue[700] }}
                 />
               )}
             </h6>{" "}
@@ -94,7 +94,7 @@ export default function DetailCard() {
             {movie?.genres?.map((catg) => {
               console.log(movie);
               return (
-                <div className="bg-warning px-3 py-1 rounded me-2 fs-5 fw-bold">
+                <div className="bg-primary px-3 py-1 rounded me-2 fs-5 fw-bold">
                   {" "}
                   {catg.name}
                 </div>

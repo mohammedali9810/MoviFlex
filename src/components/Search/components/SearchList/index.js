@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { addRemoveFavorite } from "../../../../store/slices/favorite";
-import { yellow } from "@mui/material/colors";
+import { blue } from "@mui/material/colors";
 import { Favorite, FavoriteBorder } from "@mui/icons-material";
 import { useDispatch, useSelector } from "react-redux";
 import { Box, CircularProgress, Typography } from "@mui/material";
@@ -74,12 +74,12 @@ export default function SearchList() {
                     (favoriteMovie) => favoriteMovie.id === movie.id
                   ) ? (
                     <Favorite
-                      sx={{ color: yellow[300] }}
+                      sx={{ color: blue[300] }}
                       style={{ cursor: "pointer" }}
                     />
                   ) : (
                     <FavoriteBorder
-                      sx={{ color: yellow[300] }}
+                      sx={{ color: blue[300] }}
                       style={{ cursor: "pointer" }}
                     />
                   )}

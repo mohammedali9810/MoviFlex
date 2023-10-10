@@ -3,7 +3,7 @@ import { FavoriteBorder, Favorite } from "@mui/icons-material";
 import CircularProgress from "@mui/material/CircularProgress";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import { yellow } from "@mui/material/colors";
+import { blue } from "@mui/material/colors";
 import { useDispatch, useSelector } from "react-redux";
 import { addRemoveFavorite } from "../../../../store/slices/favorite";
 import { useNavigate } from "react-router-dom";
