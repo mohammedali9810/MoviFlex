@@ -36,6 +36,13 @@ export default function Header() {
             >
               Light Theme
             </button>
+
+                <Link
+              to="/new-user"
+              className="me-3 fw-bold text-decoration-none text-dark "
+            >
+              Register
+            </Link>
             <FontAwesomeIcon className="me-2" icon={faHeart} size="lg" />
             <div className="fw-bold position-relative p-1">
               {" "}
