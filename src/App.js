@@ -33,6 +33,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/MoviFlex" element={<Home />} />
           <Route path="/movie-detail/:id" element={<MovieDetail />} />
+          <Route path="/new-User" element={<NewUser />} />
           <Route path="/watchlist" element={<WatchList />} />
           <Route path="/search/:title" element={<Search />} />
           <Route path="/404" element={<NotFound />} />
